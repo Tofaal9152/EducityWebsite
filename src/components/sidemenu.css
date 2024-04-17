@@ -1,0 +1,21 @@
+/* Media Query */
+
+@media (max-width:1024px) {
+    nav{
+        margin-top: 1rem;
+        position:absolute;
+    }
+    nav ul{
+        background-color: #4838788C;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+    }
+    
+}
+
